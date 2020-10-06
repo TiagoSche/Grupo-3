@@ -5,7 +5,7 @@ function consultarImagem(){
     var dataImagem = document.getElementById("data-imagem").value;
     console.log(dataImagem);
     
-    var url = "https://api.nasa.gov/planetary/apod? api_key = 58DgetDbv4ygEJmmmZgOITMjNHIsjzrJ38a2NFBm";
+    var url = "https://api.nasa.gov/planetary/apod?api_key=58DgetDbv4ygEJmmmZgOITMjNHIsjzrJ38a2NFBm";
     
     if(dataImagem != "") url += "&date="+dataImagem;
   
